@@ -30,3 +30,4 @@ D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\Proj
 D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\ProjectAsp.dll
 D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\ProjectAsp.pdb
 D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\ProjectAsp.csproj.CopyComplete
+D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\Razor\Views\Escuela\Index.g.cshtml.cs
