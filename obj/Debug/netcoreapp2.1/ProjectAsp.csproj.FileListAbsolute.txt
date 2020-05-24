@@ -33,3 +33,5 @@ D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\Proj
 D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\Razor\Views\Escuela\Index.g.cshtml.cs
 D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Simple.g.cshtml.cs
 D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\Razor\Views\Asignatura\Index.g.cshtml.cs
+D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\AsignaturaSimple.g.cshtml.cs
+D:\006 PERSONAL\AUTO APRENDIZAJE\ASP.NET\ProjectAsp\obj\Debug\netcoreapp2.1\Razor\Views\Asignatura\MultiAsignatura.g.cshtml.cs

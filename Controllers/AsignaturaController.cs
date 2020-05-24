@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using ProjectAsp.Models;
 
@@ -6,15 +7,21 @@ namespace ProjectAsp.Controllers
 {
     public class AsignaturaController : Controller
     {
+        public IActionResult MultiAsignatura()
+        {
+            var listaAsignaturas = new List<Asignatura>(){
+                            new Asignatura{Nombre="Matemáticas", UniqueId=Guid.NewGuid().ToString()} ,
+                            new Asignatura{Nombre="Educación Física",UniqueId=Guid.NewGuid().ToString()},
+                            new Asignatura{Nombre="Castellano",UniqueId=Guid.NewGuid().ToString()},
+                            new Asignatura{Nombre="Ciencias Naturales",UniqueId=Guid.NewGuid().ToString()},
+                            new Asignatura{Nombre="Programacion",UniqueId=Guid.NewGuid().ToString()}
+                };
+            ViewBag.Fecha = DateTime.Now;
+            return View(listaAsignaturas);
+        }
         public IActionResult Index()
         {
-            var asignatura = new Asignatura()
-            {
-                UniqueId = Guid.NewGuid().ToString(),
-                Nombre = "Programacion"
-            };
-            ViewBag.Fecha = DateTime.Now;
-            return View(asignatura);
+            return View(new Asignatura { Nombre = "Programacion", UniqueId = Guid.NewGuid().ToString() });
         }
 
     }
