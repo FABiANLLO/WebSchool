@@ -13,6 +13,8 @@ namespace ProjectAsp.Controllers
             escuela.EscuelaId = Guid.NewGuid().ToString();
             escuela.Nombre = "ITI";
 
+            ViewBag.CosaDinamica = "La Monja";
+
             return View(escuela);
         }
     }
