@@ -12,6 +12,10 @@ namespace ProjectAsp.Controllers
             escuela.AñoDeCreación = 2005;
             escuela.UniqueId = Guid.NewGuid().ToString();
             escuela.Nombre = "ITI";
+            escuela.Ciudad = "Bogota";
+            escuela.Pais = "Colombia";
+            escuela.Dirección = "Calle 14 # 14 - 04";
+            escuela.TipoEscuela = TiposEscuela.Secundaria;
 
             ViewBag.CosaDinamica = "La Monja";
 
