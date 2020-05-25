@@ -17,15 +17,16 @@ namespace ProjectAsp.Models
         {
             base.OnModelCreating(modelBuilder);
 
-            var escuela = new Escuela();
-            escuela.AñoDeCreación = 2005;
-            escuela.Id = Guid.NewGuid().ToString();
-            escuela.Nombre = "ITI";
-            escuela.Ciudad = "Bogota";
-            escuela.Pais = "Colombia";
-            escuela.Dirección = "Calle 14 # 14 - 04";
-            escuela.TipoEscuela = TiposEscuela.Secundaria;
-
+            var escuela = new Escuela
+            {
+                AñoDeCreación = 2005,
+                Nombre = "ITI",
+                Id = Guid.NewGuid().ToString(),
+                Ciudad = "Bogota",
+                Pais = "Colombia",
+                Dirección = "Calle 14 Bis # 14A - 04",
+                TipoEscuela = TiposEscuela.Secundaria
+            };
             modelBuilder.Entity<Escuela>().HasData(escuela);
             modelBuilder.Entity<Asignatura>().HasData(
                             new Asignatura { Nombre = "Matemáticas", Id = Guid.NewGuid().ToString() },
@@ -35,7 +36,7 @@ namespace ProjectAsp.Models
                             new Asignatura { Nombre = "Programacion", Id = Guid.NewGuid().ToString() }
             );
             modelBuilder.Entity<Alumno>().HasData(
-                GenerarAlumnosAlAzar().ToArray() 
+                GenerarAlumnosAlAzar().ToArray()
             );
         }
         private List<Alumno> GenerarAlumnosAlAzar()
